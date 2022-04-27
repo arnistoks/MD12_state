@@ -1,28 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import Count from './components/Count/Count';
+import Count10 from './components/Count/Count10';
+import PlusPica from './components/Pica/Pica';
+import CubeColor from './components/CubeColor/CubeColor';
+import PushText from './components/PushText/PushText';
+import InputText from './components/InputText/InputText';
+import Numbers from './components/Numbers/Numbers';
 
 const App = () => (
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit
-        {' '}
-        <code>src/App.tsx</code>
-        {' '}
-        and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
+  <section className="section">
+    <div className="container">
+      <Count />
+      <Count10 />
+      <PlusPica />
+    </div>
+    <div className="container container__wrap">
+      <CubeColor />
+      <PushText />
+    </div>
+    <div className="container">
+      <InputText />
+    </div>
+    <div className="container">
+      <Numbers />
+    </div>
+  </section>
 );
 
 export default App;

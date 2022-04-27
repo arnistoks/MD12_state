@@ -1,0 +1,13 @@
+.cube {
+  border: 1px solid black;
+  width: 150px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.box__cube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
