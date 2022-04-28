@@ -7,6 +7,7 @@ import CubeColor from './components/CubeColor/CubeColor';
 import PushText from './components/PushText/PushText';
 import InputText from './components/InputText/InputText';
 import Numbers from './components/Numbers/Numbers';
+import Cards from './components/Cards/Cards';
 
 const App = () => (
   <section className="section">
@@ -24,6 +25,9 @@ const App = () => (
     </div>
     <div className="container">
       <Numbers />
+    </div>
+    <div className="container">
+      <Cards />
     </div>
   </section>
 );
